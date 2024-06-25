@@ -13,7 +13,7 @@ var yCano;
 var pontuacao = 0;
 
 function setup() {
-  createCanvas(800, 600);
+  createCanvas(windowWidth, windowHeight);
   xPassaro = 64;
   yPassaro = height / 2;
   xCano = width;
